@@ -4003,12 +4003,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .posts > * {
-  width: 50%;
+  width: 33.333%;
 }
 
 #main > .posts > * {
   padding: 4rem;
-  width: 50%;
+  width: 33.333%;
 }
 
 #main > .posts > article {
@@ -4023,11 +4023,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   margin-bottom: 0;
 }
 
-#main > .posts > article:nth-child(2n - 1) {
+#main > .posts > article:nth-child(3n + 1) {
   border-left-width: 0;
 }
 
-#main > .posts > article:nth-child(-n + 2) {
+#main > .posts > article:nth-child(-n + 3) {
   border-top-width: 0;
 }
 
@@ -4039,6 +4039,22 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > .posts > * {
     padding: 2.5rem;
     width: 50%;
+  }
+
+  #main > .posts > article:nth-child(3n + 1) {
+    border-left-width: 2px;
+  }
+
+  #main > .posts > article:nth-child(-n + 3) {
+    border-top-width: 2px;
+  }
+
+  #main > .posts > article:nth-child(2n + 1) {
+    border-left-width: 0;
+  }
+
+  #main > .posts > article:nth-child(-n + 2) {
+    border-top-width: 0;
   }
 }
 
@@ -4052,11 +4068,19 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     width: 100%;
   }
 
-  #main > .posts > article:nth-child(2n - 1) {
+  #main > .posts > article:nth-child(2n + 1) {
+    border-left-width: 2px;
+  }
+
+  #main > .posts > article:nth-child(3n + 1) {
     border-left-width: 2px;
   }
 
   #main > .posts > article:nth-child(-n + 2) {
+    border-top-width: 2px;
+  }
+
+  #main > .posts > article:nth-child(-n + 3) {
     border-top-width: 2px;
   }
 
