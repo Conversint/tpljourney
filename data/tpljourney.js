@@ -1,0 +1,235 @@
+// TPL Journey Menu Configuration
+export const tplJourneyMenu = [
+  { href: "/", text: "The Kingdom" },
+  { href: "/your-journey", text: "Your Journey" },
+  { href: "/life-together", text: "Life Together" },
+  { href: "/leaders", text: "Leaders" },
+  { href: "/intensives", text: "Intensives" },
+  { href: "/about", text: "About" },
+  { href: "/contact", text: "Contact" },
+];
+
+// TPL Journey Social Links
+export const tplSocialLinks = [
+  {
+    href: "https://instagram.com/tpljourney",
+    title: "Instagram",
+    iconClass: "fa-instagram",
+    name: "Instagram",
+  },
+  {
+    href: "https://twitter.com/tpljourney",
+    title: "X (Twitter)",
+    iconClass: "fa-x-twitter",
+    name: "X",
+  },
+];
+
+// TPL Journey Footer Data
+export const tplFooterLinks = [
+  { name: "Privacy Policy", path: "/privacy" },
+  { name: "Contact", path: "/contact" },
+];
+
+// Hero Rotating Text
+export const heroRotatingText = [
+  "The harvest is plentiful...",
+  "The wind blows where it wishes...",
+  "Your kingdom come, your will be done...",
+  "Experiencing God's Kingdom in Truth, Power, and Love",
+];
+
+// Journey Stages for Homepage
+export const journeyStages = [
+  {
+    id: 1,
+    title: "The Kingdom",
+    description: "Discover God's vision for His kingdom on earth as it is in heaven.",
+    icon: "mi-crown",
+    href: "/",
+    stage: "Vision",
+  },
+  {
+    id: 2,
+    title: "Your Journey",
+    description: "Begin the making of a disciple — growing in Truth, Power, and Love.",
+    icon: "mi-user",
+    href: "/your-journey",
+    stage: "Personal",
+  },
+  {
+    id: 3,
+    title: "Life Together",
+    description: "Experience kingdom community — growing, praying, sharing, and caring together.",
+    icon: "mi-users",
+    href: "/life-together",
+    stage: "Community",
+  },
+  {
+    id: 4,
+    title: "Leaders",
+    description: "Become disciple-makers who multiply kingdom life in others.",
+    icon: "mi-fire",
+    href: "/leaders",
+    stage: "Multiplication",
+  },
+  {
+    id: 5,
+    title: "Intensives",
+    description: "Go into the harvest — faith-building experiences with God in the field.",
+    icon: "mi-globe",
+    href: "/intensives",
+    stage: "Harvest",
+  },
+];
+
+// TPL Framework
+export const tplFramework = {
+  truth: {
+    title: "Truth",
+    description: "God reveals Himself through His Word and His creation. We encounter the living God who speaks, teaches, and transforms our understanding.",
+    scripture: "John 8:32",
+    scriptureText: "You will know the truth, and the truth will set you free.",
+  },
+  power: {
+    title: "Power",
+    description: "God demonstrates His kingdom through supernatural works. The Holy Spirit empowers us to live beyond our natural abilities.",
+    scripture: "Acts 1:8",
+    scriptureText: "You will receive power when the Holy Spirit comes upon you.",
+  },
+  love: {
+    title: "Love",
+    description: "God's nature is love, and His kingdom is built on love. We become vessels of His love to a world in need.",
+    scripture: "1 John 4:8",
+    scriptureText: "God is love.",
+  },
+};
+
+// Page 2: Your Journey Resources
+export const yourJourneyResources = [
+  {
+    id: 1,
+    title: "The Making of a Disciple Series",
+    description: "A foundational series exploring what it means to follow Jesus in the TPL framework.",
+    type: "folder",
+    language: "English",
+    driveLink: "https://drive.google.com/drive/folders/1hkMIgrDUdmpf1YtDaxERwpOaKl4I0bHs?usp=share_link",
+    icon: "mi-folder",
+  },
+];
+
+// Page 3: Life Together (DMT) Resources
+export const lifeTogether = {
+  vision: {
+    scripture: "Acts 2:41-47",
+    text: "They devoted themselves to the apostles' teaching and to fellowship, to the breaking of bread and to prayer. Everyone was filled with awe at the many wonders and signs performed by the apostles. All the believers were together and had everything in common.",
+  },
+  resources: [
+    {
+      id: 1,
+      title: "One Flame DMT Facilitator's Guide",
+      description: "A 20-week facilitation guide for leading Discovery-Making Together groups.",
+      type: "folder",
+      languages: ["English", "Bahasa Indonesia"],
+      driveLink: "https://drive.google.com/drive/folders/1CkkCqlfS8VEZxB_ew6ydbXN_dZcIrolo?usp=sharing",
+      icon: "mi-book-open",
+    },
+  ],
+  startingSteps: [
+    {
+      step: 1,
+      title: "Gather 2-3 Others",
+      description: "Find a small group of people hungry to grow together in faith.",
+    },
+    {
+      step: 2,
+      title: "Set a Rhythm",
+      description: "Commit to meeting weekly for discovery, prayer, and accountability.",
+    },
+    {
+      step: 3,
+      title: "Use the DMT Guide",
+      description: "Follow the 20-week facilitation guide to structure your journey together.",
+    },
+    {
+      step: 4,
+      title: "Practice What You Learn",
+      description: "Apply kingdom principles between meetings and share what God does.",
+    },
+  ],
+};
+
+// Page 4: Leaders Resources
+export const leadersResources = [
+  {
+    id: 1,
+    title: "Two Flame Leader Development Modules",
+    description: "Training materials for developing disciple-makers who multiply kingdom communities.",
+    type: "folder",
+    language: "English",
+    // TODO: Replace with Google Drive resource link from Mark
+    driveLink: null,
+    icon: "mi-fire",
+    comingSoon: true,
+  },
+];
+
+// Page 5: Intensives
+export const intensives = {
+  pillars: [
+    {
+      id: 1,
+      title: "Prayer",
+      description: "Dedicated times of seeking God's presence and direction.",
+      icon: "mi-hand",
+    },
+    {
+      id: 2,
+      title: "Inner Healing",
+      description: "Encountering God's restoration for wounds and barriers to freedom.",
+      icon: "mi-heart",
+    },
+    {
+      id: 3,
+      title: "Kingdom Teaching",
+      description: "Deep dives into kingdom principles and supernatural living.",
+      icon: "mi-book-open",
+    },
+    {
+      id: 4,
+      title: "Practice in the Harvest",
+      description: "Going out to experience God working through you in real-world ministry.",
+      icon: "mi-globe",
+    },
+    {
+      id: 5,
+      title: "Fellowship & Debrief",
+      description: "Processing experiences together and building lasting relationships.",
+      icon: "mi-users",
+    },
+  ],
+  resources: [
+    {
+      id: 1,
+      title: "Intensive Workbooks",
+      description: "Preparation and reflection materials for intensive retreat experiences.",
+      type: "folder",
+      language: "English",
+      // TODO: Replace with Google Drive resource link from Mark
+      driveLink: null,
+      icon: "mi-document",
+      comingSoon: true,
+    },
+  ],
+};
+
+// About Page Content
+export const aboutContent = {
+  mission: "TPL Journey equips individuals and communities to experience God's kingdom through a discipleship framework grounded in Truth, Power, and Love.",
+  vision: "To see every person encounter the living God and become a disciple-maker who multiplies kingdom life throughout the nations.",
+  founder: {
+    name: "Mark Straznicky",
+    role: "Founder",
+    bio: "Based overseas with international teams across multiple regions, Mark leads TPL Journey's mission to equip disciples and disciple-makers around the world.",
+  },
+};

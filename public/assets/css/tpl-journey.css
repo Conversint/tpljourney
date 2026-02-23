@@ -1,0 +1,523 @@
+/* TPL Journey Custom Styles
+   Warm, earthy color palette inspired by harvest fields, fire, and kingdom imagery
+   ========================================================================== */
+
+/* Color Palette Variables */
+:root {
+  /* Primary - Warm Gold/Amber */
+  --tpl-primary: #C8863A;
+  --tpl-primary-light: #D9A05E;
+  --tpl-primary-dark: #A86B2D;
+
+  /* Secondary - Deep Earth Brown */
+  --tpl-secondary: #5C4033;
+  --tpl-secondary-light: #7A5A4A;
+  --tpl-secondary-dark: #3D2A22;
+
+  /* Accent - Fire Orange */
+  --tpl-accent: #D4652A;
+  --tpl-accent-light: #E88B5A;
+  --tpl-accent-dark: #B54D1A;
+
+  /* Background - Warm White */
+  --tpl-bg-light: #FAF8F5;
+  --tpl-bg-cream: #F5F0E8;
+
+  /* Text - Warm Dark */
+  --tpl-text-dark: #2D2926;
+  --tpl-text-gray: #6B635A;
+  --tpl-text-light: #9A928A;
+
+  /* TPL Framework Colors */
+  --tpl-truth: #4A7C59;  /* Sage green - truth/growth */
+  --tpl-power: #D4652A;  /* Fire orange - power/Spirit */
+  --tpl-love: #C75D5D;   /* Warm red - love/heart */
+}
+
+/* Base Theme Overrides */
+.theme-elegant {
+  --color-dark-1: var(--tpl-text-dark);
+  --color-gray-1: var(--tpl-text-gray);
+  background-color: var(--tpl-bg-light);
+}
+
+/* Logo Text Style */
+.logo-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: inherit;
+  letter-spacing: 0.02em;
+}
+
+.light-content .logo-text {
+  color: #fff;
+}
+
+/* Hero Section Enhancements */
+.hero-tagline {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-style: italic;
+}
+
+.hero-scripture {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  font-style: normal;
+}
+
+.hs-title-6 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tpl-primary-light);
+}
+
+/* Journey Cards */
+.journey-card {
+  display: block;
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.journey-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  color: inherit;
+}
+
+.journey-card-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.journey-number {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--tpl-bg-cream);
+  line-height: 1;
+  z-index: 0;
+}
+
+.journey-icon {
+  color: var(--tpl-primary);
+}
+
+.journey-stage-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--tpl-accent);
+  font-weight: 600;
+}
+
+.journey-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--tpl-text-dark);
+}
+
+.journey-description {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.journey-link {
+  color: var(--tpl-primary);
+}
+
+.journey-card:hover .journey-link {
+  color: var(--tpl-accent);
+}
+
+/* TPL Framework Pillars */
+.tpl-pillar {
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  height: 100%;
+  border-left: 4px solid;
+}
+
+.tpl-pillar-truth {
+  border-color: var(--tpl-truth);
+}
+
+.tpl-pillar-power {
+  border-color: var(--tpl-power);
+}
+
+.tpl-pillar-love {
+  border-color: var(--tpl-love);
+}
+
+.tpl-pillar-title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.tpl-pillar-truth .tpl-pillar-title {
+  color: var(--tpl-truth);
+}
+
+.tpl-pillar-power .tpl-pillar-title {
+  color: var(--tpl-power);
+}
+
+.tpl-pillar-love .tpl-pillar-title {
+  color: var(--tpl-love);
+}
+
+.tpl-pillar-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.tpl-scripture {
+  font-style: italic;
+  padding-left: 20px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.tpl-scripture p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.tpl-scripture cite {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* Resource Cards */
+.resource-card {
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+
+.resource-icon {
+  color: var(--tpl-primary);
+}
+
+.resource-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--tpl-text-dark);
+}
+
+.resource-description {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.resource-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--tpl-bg-cream);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: var(--tpl-text-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-coming-soon {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--tpl-bg-cream);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--tpl-text-gray);
+  font-style: italic;
+}
+
+/* Steps Section */
+.step-card {
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  position: relative;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: var(--tpl-primary);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.step-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--tpl-text-dark);
+  margin-bottom: 10px;
+}
+
+.step-description {
+  font-size: 0.95rem;
+  color: var(--tpl-text-gray);
+  line-height: 1.6;
+}
+
+/* Pillar Cards (for Intensives) */
+.pillar-card {
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  height: 100%;
+}
+
+.pillar-icon {
+  color: var(--tpl-primary);
+  margin-bottom: 20px;
+}
+
+.pillar-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--tpl-text-dark);
+  margin-bottom: 15px;
+}
+
+.pillar-description {
+  font-size: 0.95rem;
+  color: var(--tpl-text-gray);
+  line-height: 1.6;
+}
+
+/* Scripture Block */
+.scripture-block {
+  padding: 40px;
+  background: var(--tpl-bg-cream);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.scripture-text {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--tpl-text-dark);
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.scripture-reference {
+  font-size: 0.9rem;
+  color: var(--tpl-text-gray);
+  font-weight: 500;
+}
+
+/* Footer Enhancements */
+.footer-tagline {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+
+.footer-links {
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-divider {
+  margin: 0 15px;
+  opacity: 0.3;
+}
+
+/* Button Overrides */
+.btn-mod.btn-border-w {
+  border-color: var(--tpl-primary-light);
+  color: var(--tpl-primary-light);
+}
+
+.btn-mod.btn-border-w:hover {
+  background-color: var(--tpl-primary);
+  border-color: var(--tpl-primary);
+}
+
+/* Link Hover Animation */
+.link-hover-anim {
+  color: var(--tpl-primary);
+}
+
+.link-hover-anim:hover {
+  color: var(--tpl-accent);
+}
+
+/* Section Title Styling */
+.section-title {
+  color: var(--tpl-text-dark);
+}
+
+.section-title .text-gray {
+  color: var(--tpl-text-light);
+}
+
+/* Page Header for Inner Pages */
+.page-header {
+  padding: 160px 0 80px;
+  background: linear-gradient(
+    135deg,
+    var(--tpl-secondary-dark) 0%,
+    var(--tpl-secondary) 100%
+  );
+}
+
+.page-header-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.page-header-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Vision Section */
+.vision-section {
+  padding: 80px 0;
+  background: var(--tpl-bg-cream);
+}
+
+/* Contact Form Styling */
+.contact-form input,
+.contact-form textarea {
+  border-color: var(--tpl-bg-cream);
+  background: #fff;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--tpl-primary);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .page-header-title {
+    font-size: 2.5rem;
+  }
+
+  .hs-title-6 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-header-title {
+    font-size: 2rem;
+  }
+
+  .journey-number {
+    font-size: 4rem;
+  }
+
+  .tpl-pillar {
+    padding: 30px;
+  }
+}
+
+/* Dark Section Overrides */
+.bg-dark-1 {
+  background-color: var(--tpl-secondary-dark) !important;
+}
+
+.light-content .section-title {
+  color: #fff;
+}
+
+.light-content .text-gray {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Parallax Background Overlay */
+.bg-dark-alpha-30:before {
+  background-color: rgba(45, 41, 38, 0.5);
+}
+
+/* Scroll Down Styling */
+.scroll-down-3 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.scroll-down-3:hover {
+  color: var(--tpl-primary-light);
+}
+
+/* Animation for Journey Cards on Scroll */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.journey-card {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.journey-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.journey-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.journey-card:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.journey-card:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+/* Icon Size Extension */
+.size-48 {
+  font-size: 48px;
+}

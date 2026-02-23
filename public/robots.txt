@@ -1,0 +1,11 @@
+# TPL Journey Robots.txt
+# https://tpljourney.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tpljourney.com/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
