@@ -1,6 +1,7 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, intensives } from "@/data/tpljourney";
 import Link from "next/link";
 
@@ -39,6 +40,9 @@ export default function IntensivesPage() {
             </div>
           </section>
 
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={5} />
+
           {/* Vision Section */}
           <section className="page-section">
             <div className="container">
@@ -51,7 +55,7 @@ export default function IntensivesPage() {
                     </p>
                     <p className="scripture-reference">— Matthew 9:37-38</p>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       There comes a point in every disciple's journey when it's time
                       to step out — to leave the classroom and enter the field. Intensives
@@ -166,14 +170,8 @@ export default function IntensivesPage() {
                     <Link
                       href="/contact"
                       className="btn btn-mod btn-w btn-large btn-circle"
-                      data-btn-animate="y"
                     >
-                      <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">Get in Touch</span>
-                        <span className="btn-animate-y-2" aria-hidden="true">
-                          Get in Touch
-                        </span>
-                      </span>
+                      Get in Touch
                     </Link>
                   </div>
                 </div>
@@ -200,7 +198,7 @@ export default function IntensivesPage() {
                   </p>
                   <div className="local-scroll">
                     <Link
-                      href="/"
+                      href="/the-kingdom"
                       className="link-hover-anim link-circle-1 align-middle"
                       data-link-animate="y"
                     >

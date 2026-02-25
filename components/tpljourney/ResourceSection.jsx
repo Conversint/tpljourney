@@ -15,10 +15,10 @@ export default function ResourceSection({ resources, title, description }) {
           </div>
         )}
 
-        <div className="row">
+        <div className="row justify-content-center">
           {resources.map((resource) => (
             <div key={resource.id} className="col-md-6 col-lg-4 mb-40">
-              <div className="resource-card">
+              <div className="resource-card text-center">
                 <div className="resource-icon mb-20">
                   <i className={`${resource.icon} size-48`} aria-hidden="true" />
                 </div>

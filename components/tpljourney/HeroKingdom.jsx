@@ -22,11 +22,12 @@ export default function HeroKingdom() {
           "The harvest is plentiful, but the workers are few."
           <span className="hero-scripture"> — Matthew 9:37</span>
         </p>
-        <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.5s">
+        <div className="local-scroll">
           <Link
-            href="/your-journey"
-            className="link-hover-anim link-circle-1 align-middle"
+            href="/the-kingdom"
+            className="link-hover-anim link-circle-1 align-middle wow fadeInUpShort"
             data-link-animate="y"
+            data-wow-delay="0.5s"
           >
             <span className="link-strong link-strong-unhovered">
               Begin Your Journey{" "}
@@ -49,16 +50,6 @@ export default function HeroKingdom() {
         </div>
       </div>
       {/* End Home Section Content */}
-      {/* Scroll Down */}
-      <div
-        className="local-scroll scroll-down-3-wrap wow fadeInUp"
-        data-wow-offset={0}
-      >
-        <a href="#vision" className="scroll-down-3">
-          Scroll Down
-        </a>
-      </div>
-      {/* End Scroll Down */}
     </div>
   );
 }

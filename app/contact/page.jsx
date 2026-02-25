@@ -119,14 +119,8 @@ export default function ContactPage() {
                         <button
                           type="submit"
                           className="btn btn-mod btn-large btn-circle"
-                          data-btn-animate="y"
                         >
-                          <span className="btn-animate-y">
-                            <span className="btn-animate-y-1">Send Message</span>
-                            <span className="btn-animate-y-2" aria-hidden="true">
-                              Send Message
-                            </span>
-                          </span>
+                          Send Message
                         </button>
                       </div>
                     </form>

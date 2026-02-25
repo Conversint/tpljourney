@@ -29,6 +29,11 @@ export default function TPLFramework() {
             return (
               <div key={key} className="col-md-4 mb-40 mb-md-0">
                 <div className={`tpl-pillar tpl-pillar-${color}`}>
+                  {pillar.icon && (
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className={`${pillar.icon} size-48`} aria-hidden="true" />
+                    </div>
+                  )}
                   <h3 className="tpl-pillar-title mb-20">{pillar.title}</h3>
                   <p className="tpl-pillar-description mb-30">
                     {pillar.description}

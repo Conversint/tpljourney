@@ -32,16 +32,8 @@ export default function HeaderTPL({ links }) {
               href="/contact"
               className="opacity-1 no-hover"
             >
-              <span
-                className="btn btn-mod btn-small btn-border-w btn-circle"
-                data-btn-animate="y"
-              >
-                <span className="btn-animate-y">
-                  <span className="btn-animate-y-1">Begin Your Journey</span>
-                  <span className="btn-animate-y-2" aria-hidden="true">
-                    Begin Your Journey
-                  </span>
-                </span>
+              <span className="btn btn-mod btn-small btn-border-w btn-circle">
+                Begin Your Journey
               </span>
             </Link>
           </li>

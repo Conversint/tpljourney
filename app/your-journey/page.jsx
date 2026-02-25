@@ -1,6 +1,7 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, yourJourneyResources } from "@/data/tpljourney";
 import Link from "next/link";
 
@@ -32,24 +33,28 @@ export default function YourJourneyPage() {
                   <div className="page-header-label mb-20">Stage 2: Personal</div>
                   <h1 className="page-header-title">Your Journey</h1>
                   <p className="page-header-subtitle">
-                    The Making of a Disciple
+                    I Am a Disciple
                   </p>
                 </div>
               </div>
             </div>
           </section>
 
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={2} />
+
           {/* Vision Section */}
-          <section className="page-section">
+          <section className="page-section pb-0">
             <div className="container">
-              <div className="row mb-70 mb-sm-50">
+              <div className="row mb-0">
                 <div className="col-lg-8 offset-lg-2">
-                  <div className="scripture-block mb-50">
+                  <div className="scripture-block mb-30">
                     <p className="scripture-text">
-                      "I am a Disciple"
+                      "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me."
                     </p>
+                    <div className="scripture-reference">— Luke 9:23</div>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       Being a disciple isn't about having all the answers — it's about
                       walking with Jesus and learning His ways. The journey of discipleship
@@ -91,6 +96,9 @@ export default function YourJourneyPage() {
               <div className="row">
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-truth">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-book-open size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Truth</h3>
                     <p className="tpl-pillar-description">
                       Knowing God through His Word. Understanding who He is and how
@@ -101,6 +109,9 @@ export default function YourJourneyPage() {
                 </div>
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-lightning size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Power</h3>
                     <p className="tpl-pillar-description">
                       Experiencing the Holy Spirit. Learning to hear God's voice,
@@ -111,6 +122,9 @@ export default function YourJourneyPage() {
                 </div>
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-love">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-heart size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Love</h3>
                     <p className="tpl-pillar-description">
                       Becoming a vessel of God's love. Allowing His nature to transform

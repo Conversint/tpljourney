@@ -1,6 +1,7 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, leadersResources } from "@/data/tpljourney";
 import Link from "next/link";
 
@@ -32,12 +33,15 @@ export default function LeadersPage() {
                   <div className="page-header-label mb-20">Stage 4: Multiplication</div>
                   <h1 className="page-header-title">Leaders</h1>
                   <p className="page-header-subtitle">
-                    Becoming Disciple-Makers
+                    We are Disciple Makers
                   </p>
                 </div>
               </div>
             </div>
           </section>
+
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={4} />
 
           {/* Vision Section */}
           <section className="page-section">
@@ -49,7 +53,7 @@ export default function LeadersPage() {
                       "We are Disciple-Makers"
                     </p>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       The journey doesn't end with personal growth or even community.
                       Jesus called us to "make disciples of all nations" — to multiply
@@ -84,6 +88,9 @@ export default function LeadersPage() {
               <div className="row">
                 <div className="col-md-6 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-fire size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">One Flame</h3>
                     <p className="tpl-pillar-description mb-30">
                       Your personal journey with God. The fire of the Holy Spirit
@@ -100,6 +107,9 @@ export default function LeadersPage() {
                 </div>
                 <div className="col-md-6 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-users size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Two Flames</h3>
                     <p className="tpl-pillar-description mb-30">
                       Lighting another's flame from yours. Multiplication happens
