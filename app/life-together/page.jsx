@@ -89,6 +89,11 @@ export default function LifeTogetherPage() {
                   <div key={item.step} className="col-md-6 col-lg-3 mb-40">
                     <div className="step-card">
                       <div className="step-number">{item.step}</div>
+                      {item.icon && (
+                        <div className="step-icon mb-15">
+                          <i className={`${item.icon} size-36`} aria-hidden="true" />
+                        </div>
+                      )}
                       <h3 className="step-title">{item.title}</h3>
                       <p className="step-description">{item.description}</p>
                     </div>
@@ -121,8 +126,19 @@ export default function LifeTogetherPage() {
                     <Link
                       href="/leaders"
                       className="link-hover-anim link-circle-1 align-middle"
+                      data-link-animate="y"
                     >
-                      <span className="link-strong">
+                      <span className="link-strong link-strong-unhovered">
+                        Explore Leadership{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
+                      <span
+                        className="link-strong link-strong-hovered"
+                        aria-hidden="true"
+                      >
                         Explore Leadership{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"

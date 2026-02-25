@@ -22,12 +22,24 @@ export default function HeroKingdom() {
           "The harvest is plentiful, but the workers are few."
           <span className="hero-scripture"> — Matthew 9:37</span>
         </p>
-        <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.5s">
+        <div className="local-scroll">
           <Link
             href="/the-kingdom"
-            className="link-hover-anim link-circle-1 align-middle"
+            className="link-hover-anim link-circle-1 align-middle wow fadeInUpShort"
+            data-link-animate="y"
+            data-wow-delay="0.5s"
           >
-            <span className="link-strong">
+            <span className="link-strong link-strong-unhovered">
+              Begin Your Journey{" "}
+              <i
+                className="mi-arrow-right size-18 align-middle"
+                aria-hidden="true"
+              ></i>
+            </span>
+            <span
+              className="link-strong link-strong-hovered"
+              aria-hidden="true"
+            >
               Begin Your Journey{" "}
               <i
                 className="mi-arrow-right size-18 align-middle"

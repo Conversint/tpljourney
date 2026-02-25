@@ -52,12 +52,26 @@ export default function ResourceSection({ resources, title, description }) {
                     href={resource.driveLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="link-hover-anim"
+                    data-link-animate="y"
                   >
-                    Access Resources{" "}
-                    <i
-                      className="mi-arrow-right size-18 align-middle"
+                    <span className="link-strong link-strong-unhovered">
+                      Access Resources{" "}
+                      <i
+                        className="mi-arrow-right size-18 align-middle"
+                        aria-hidden="true"
+                      />
+                    </span>
+                    <span
+                      className="link-strong link-strong-hovered"
                       aria-hidden="true"
-                    />
+                    >
+                      Access Resources{" "}
+                      <i
+                        className="mi-arrow-right size-18 align-middle"
+                        aria-hidden="true"
+                      />
+                    </span>
                   </a>
                 ) : (
                   <div className="resource-coming-soon">

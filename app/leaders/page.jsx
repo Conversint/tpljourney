@@ -88,6 +88,9 @@ export default function LeadersPage() {
               <div className="row">
                 <div className="col-md-6 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-fire size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">One Flame</h3>
                     <p className="tpl-pillar-description mb-30">
                       Your personal journey with God. The fire of the Holy Spirit
@@ -104,6 +107,9 @@ export default function LeadersPage() {
                 </div>
                 <div className="col-md-6 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-users size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Two Flames</h3>
                     <p className="tpl-pillar-description mb-30">
                       Lighting another's flame from yours. Multiplication happens
@@ -189,8 +195,19 @@ export default function LeadersPage() {
                     <Link
                       href="/intensives"
                       className="link-hover-anim link-circle-1 align-middle"
+                      data-link-animate="y"
                     >
-                      <span className="link-strong">
+                      <span className="link-strong link-strong-unhovered">
+                        Explore Intensives{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
+                      <span
+                        className="link-strong link-strong-hovered"
+                        aria-hidden="true"
+                      >
                         Explore Intensives{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"

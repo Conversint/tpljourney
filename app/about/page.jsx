@@ -73,6 +73,11 @@ export default function AboutPage() {
               <div className="row">
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-truth">
+                    {tplFramework.truth.icon && (
+                      <div className="tpl-pillar-icon mb-20">
+                        <i className={`${tplFramework.truth.icon} size-48`} aria-hidden="true" />
+                      </div>
+                    )}
                     <h3 className="tpl-pillar-title mb-20">{tplFramework.truth.title}</h3>
                     <p className="tpl-pillar-description mb-30">
                       {tplFramework.truth.description}
@@ -85,6 +90,11 @@ export default function AboutPage() {
                 </div>
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    {tplFramework.power.icon && (
+                      <div className="tpl-pillar-icon mb-20">
+                        <i className={`${tplFramework.power.icon} size-48`} aria-hidden="true" />
+                      </div>
+                    )}
                     <h3 className="tpl-pillar-title mb-20">{tplFramework.power.title}</h3>
                     <p className="tpl-pillar-description mb-30">
                       {tplFramework.power.description}
@@ -97,6 +107,11 @@ export default function AboutPage() {
                 </div>
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-love">
+                    {tplFramework.love.icon && (
+                      <div className="tpl-pillar-icon mb-20">
+                        <i className={`${tplFramework.love.icon} size-48`} aria-hidden="true" />
+                      </div>
+                    )}
                     <h3 className="tpl-pillar-title mb-20">{tplFramework.love.title}</h3>
                     <p className="tpl-pillar-description mb-30">
                       {tplFramework.love.description}

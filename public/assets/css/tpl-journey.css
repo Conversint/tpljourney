@@ -2,6 +2,16 @@
    Warm, earthy color palette inspired by harvest fields, fire, and kingdom imagery
    ========================================================================== */
 
+/* Disable link hover slide animation */
+.link-hover-anim:hover .link-strong-unhovered {
+  opacity: 1 !important;
+  transform: none !important;
+}
+.link-hover-anim:hover .link-strong-hovered {
+  opacity: 0 !important;
+  transform: translateY(150%) translateZ(0.001px) skewY(10deg) !important;
+}
+
 /* Color Palette Variables */
 :root {
   /* Primary - Warm Gold/Amber */

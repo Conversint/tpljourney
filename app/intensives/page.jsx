@@ -200,8 +200,19 @@ export default function IntensivesPage() {
                     <Link
                       href="/the-kingdom"
                       className="link-hover-anim link-circle-1 align-middle"
+                      data-link-animate="y"
                     >
-                      <span className="link-strong">
+                      <span className="link-strong link-strong-unhovered">
+                        Return to The Kingdom{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
+                      <span
+                        className="link-strong link-strong-hovered"
+                        aria-hidden="true"
+                      >
                         Return to The Kingdom{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"

@@ -96,6 +96,9 @@ export default function YourJourneyPage() {
               <div className="row">
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-truth">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-book-open size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Truth</h3>
                     <p className="tpl-pillar-description">
                       Knowing God through His Word. Understanding who He is and how
@@ -106,6 +109,9 @@ export default function YourJourneyPage() {
                 </div>
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-power">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-lightning size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Power</h3>
                     <p className="tpl-pillar-description">
                       Experiencing the Holy Spirit. Learning to hear God's voice,
@@ -116,6 +122,9 @@ export default function YourJourneyPage() {
                 </div>
                 <div className="col-md-4 mb-40 mb-md-0">
                   <div className="tpl-pillar tpl-pillar-love">
+                    <div className="tpl-pillar-icon mb-20">
+                      <i className="mi-heart size-48" aria-hidden="true" />
+                    </div>
                     <h3 className="tpl-pillar-title mb-20">Love</h3>
                     <p className="tpl-pillar-description">
                       Becoming a vessel of God's love. Allowing His nature to transform
@@ -144,8 +153,19 @@ export default function YourJourneyPage() {
                     <Link
                       href="/life-together"
                       className="link-hover-anim link-circle-1 align-middle"
+                      data-link-animate="y"
                     >
-                      <span className="link-strong">
+                      <span className="link-strong link-strong-unhovered">
+                        Explore Life Together{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
+                      <span
+                        className="link-strong link-strong-hovered"
+                        aria-hidden="true"
+                      >
                         Explore Life Together{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"
