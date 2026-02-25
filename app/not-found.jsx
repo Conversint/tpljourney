@@ -45,18 +45,9 @@ export default function NotFoundPage() {
                       <Link
                         href="/"
                         className="btn btn-mod btn-w btn-large btn-circle"
-                        data-btn-animate="y"
                       >
-                        <span className="btn-animate-y">
-                          <span className="btn-animate-y-1">
-                            <i className="mi-arrow-left size-18 align-middle me-2" />
-                            Return to The Kingdom
-                          </span>
-                          <span className="btn-animate-y-2" aria-hidden="true">
-                            <i className="mi-arrow-left size-18 align-middle me-2" />
-                            Return to The Kingdom
-                          </span>
-                        </span>
+                        <i className="mi-arrow-left size-18 align-middle me-2" />
+                        Return to The Kingdom
                       </Link>
                     </div>
                   </div>

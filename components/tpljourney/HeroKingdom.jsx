@@ -24,41 +24,18 @@ export default function HeroKingdom() {
         </p>
         <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.5s">
           <Link
-            href="/#vision"
-            className="link-hover-anim link-circle-1 align-middle"
-            data-link-animate="y"
+            href="/the-kingdom"
+            className="link-circle-1 align-middle"
           >
-            <span className="link-strong link-strong-unhovered">
-              Begin Your Journey{" "}
-              <i
-                className="mi-arrow-right size-18 align-middle"
-                aria-hidden="true"
-              ></i>
-            </span>
-            <span
-              className="link-strong link-strong-hovered"
+            Begin Your Journey{" "}
+            <i
+              className="mi-arrow-right size-18 align-middle"
               aria-hidden="true"
-            >
-              Begin Your Journey{" "}
-              <i
-                className="mi-arrow-right size-18 align-middle"
-                aria-hidden="true"
-              ></i>
-            </span>
+            ></i>
           </Link>
         </div>
       </div>
       {/* End Home Section Content */}
-      {/* Scroll Down */}
-      <div
-        className="local-scroll scroll-down-3-wrap wow fadeInUp"
-        data-wow-offset={0}
-      >
-        <a href="#vision" className="scroll-down-3">
-          Scroll Down
-        </a>
-      </div>
-      {/* End Scroll Down */}
     </div>
   );
 }

@@ -189,14 +189,8 @@ export default function AboutPage() {
                     <Link
                       href="/your-journey"
                       className="btn btn-mod btn-large btn-circle"
-                      data-btn-animate="y"
                     >
-                      <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">Start Your Journey</span>
-                        <span className="btn-animate-y-2" aria-hidden="true">
-                          Start Your Journey
-                        </span>
-                      </span>
+                      Start Your Journey
                     </Link>
                   </div>
                 </div>

@@ -1,6 +1,7 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, yourJourneyResources } from "@/data/tpljourney";
 import Link from "next/link";
 
@@ -39,15 +40,19 @@ export default function YourJourneyPage() {
             </div>
           </section>
 
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={2} />
+
           {/* Vision Section */}
-          <section className="page-section">
+          <section className="page-section pb-0">
             <div className="container">
-              <div className="row mb-70 mb-sm-50">
+              <div className="row mb-0">
                 <div className="col-lg-8 offset-lg-2">
-                  <div className="scripture-block mb-50">
+                  <div className="scripture-block mb-30">
                     <p className="scripture-text">
-                      "I am a Disciple"
+                      "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me."
                     </p>
+                    <div className="scripture-reference">— Luke 9:23</div>
                   </div>
                   <div className="wow linesAnimIn" data-splitting="lines">
                     <p className="lead text-center mb-40">
@@ -138,26 +143,13 @@ export default function YourJourneyPage() {
                   <div className="local-scroll">
                     <Link
                       href="/life-together"
-                      className="link-hover-anim link-circle-1 align-middle"
-                      data-link-animate="y"
+                      className="link-circle-1 align-middle"
                     >
-                      <span className="link-strong link-strong-unhovered">
-                        Explore Life Together{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                      <span
-                        className="link-strong link-strong-hovered"
+                      Explore Life Together{" "}
+                      <i
+                        className="mi-arrow-right size-18 align-middle"
                         aria-hidden="true"
-                      >
-                        Explore Life Together{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
+                      ></i>
                     </Link>
                   </div>
                 </div>

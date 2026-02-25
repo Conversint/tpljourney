@@ -1,6 +1,7 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, leadersResources } from "@/data/tpljourney";
 import Link from "next/link";
 
@@ -38,6 +39,9 @@ export default function LeadersPage() {
               </div>
             </div>
           </section>
+
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={4} />
 
           {/* Vision Section */}
           <section className="page-section">
@@ -184,26 +188,13 @@ export default function LeadersPage() {
                   <div className="local-scroll">
                     <Link
                       href="/intensives"
-                      className="link-hover-anim link-circle-1 align-middle"
-                      data-link-animate="y"
+                      className="link-circle-1 align-middle"
                     >
-                      <span className="link-strong link-strong-unhovered">
-                        Explore Intensives{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                      <span
-                        className="link-strong link-strong-hovered"
+                      Explore Intensives{" "}
+                      <i
+                        className="mi-arrow-right size-18 align-middle"
                         aria-hidden="true"
-                      >
-                        Explore Intensives{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
+                      ></i>
                     </Link>
                   </div>
                 </div>

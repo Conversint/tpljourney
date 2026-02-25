@@ -1,6 +1,7 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, intensives } from "@/data/tpljourney";
 import Link from "next/link";
 
@@ -38,6 +39,9 @@ export default function IntensivesPage() {
               </div>
             </div>
           </section>
+
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={5} />
 
           {/* Vision Section */}
           <section className="page-section">
@@ -166,14 +170,8 @@ export default function IntensivesPage() {
                     <Link
                       href="/contact"
                       className="btn btn-mod btn-w btn-large btn-circle"
-                      data-btn-animate="y"
                     >
-                      <span className="btn-animate-y">
-                        <span className="btn-animate-y-1">Get in Touch</span>
-                        <span className="btn-animate-y-2" aria-hidden="true">
-                          Get in Touch
-                        </span>
-                      </span>
+                      Get in Touch
                     </Link>
                   </div>
                 </div>
@@ -201,26 +199,13 @@ export default function IntensivesPage() {
                   <div className="local-scroll">
                     <Link
                       href="/"
-                      className="link-hover-anim link-circle-1 align-middle"
-                      data-link-animate="y"
+                      className="link-circle-1 align-middle"
                     >
-                      <span className="link-strong link-strong-unhovered">
-                        Return to The Kingdom{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                      <span
-                        className="link-strong link-strong-hovered"
+                      Return to The Kingdom{" "}
+                      <i
+                        className="mi-arrow-right size-18 align-middle"
                         aria-hidden="true"
-                      >
-                        Return to The Kingdom{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
+                      ></i>
                     </Link>
                   </div>
                 </div>

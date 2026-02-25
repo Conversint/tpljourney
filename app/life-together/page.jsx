@@ -1,16 +1,17 @@
 import HeaderTPL from "@/components/headers/HeaderTPL";
 import FooterTPL from "@/components/footers/FooterTPL";
 import ResourceSection from "@/components/tpljourney/ResourceSection";
+import JourneyProgress from "@/components/tpljourney/JourneyProgress";
 import { tplJourneyMenu, lifeTogether } from "@/data/tpljourney";
 import Link from "next/link";
 
 export const metadata = {
   title: "Life Together — Kingdom Community | TPL Journey",
   description:
-    "Experience kingdom community through Discovery-Making Together (DMT) groups. Resources for starting and leading discipleship communities.",
+    "Experience kingdom community through Disciple-Making Teams (DMTs). Resources for starting and leading discipleship communities.",
   openGraph: {
     title: "Life Together — Kingdom Community",
-    description: "Experience kingdom community through DMT groups",
+    description: "Experience kingdom community through DMTs",
     type: "website",
     siteName: "TPL Journey",
   },
@@ -38,6 +39,9 @@ export default function LifeTogetherPage() {
               </div>
             </div>
           </section>
+
+          {/* Journey Progress */}
+          <JourneyProgress currentStage={3} />
 
           {/* Scripture Section */}
           <section className="page-section">
@@ -75,7 +79,7 @@ export default function LifeTogetherPage() {
                     How to Start a Group<span className="text-gray">.</span>
                   </h2>
                   <div className="text-gray">
-                    Starting a DMT group is simpler than you think. Here's how to begin:
+                    Starting a DMT is simpler than you think. Here's how to begin:
                   </div>
                 </div>
               </div>
@@ -98,7 +102,7 @@ export default function LifeTogetherPage() {
           <ResourceSection
             resources={lifeTogether.resources}
             title="One Flame DMT Resources"
-            description="The Discovery-Making Together (DMT) facilitation guide walks groups through a 20-week journey of discovery, prayer, and practice."
+            description="The Disciple-Making Team (DMT) facilitation guide walks groups through a 20-week journey of discovery, prayer, and practice."
           />
 
           {/* What is DMT */}
@@ -107,7 +111,7 @@ export default function LifeTogetherPage() {
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                   <h2 className="section-title text-center mb-50">
-                    What is Discovery-Making Together?
+                    What is Disciple-Making Team?
                   </h2>
                   <div className="row">
                     <div className="col-md-6 mb-30">
