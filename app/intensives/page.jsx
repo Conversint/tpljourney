@@ -55,7 +55,7 @@ export default function IntensivesPage() {
                     </p>
                     <p className="scripture-reference">— Matthew 9:37-38</p>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       There comes a point in every disciple's journey when it's time
                       to step out — to leave the classroom and enter the field. Intensives
@@ -198,14 +198,16 @@ export default function IntensivesPage() {
                   </p>
                   <div className="local-scroll">
                     <Link
-                      href="/"
-                      className="link-circle-1 align-middle"
+                      href="/the-kingdom"
+                      className="link-hover-anim link-circle-1 align-middle"
                     >
-                      Return to The Kingdom{" "}
-                      <i
-                        className="mi-arrow-right size-18 align-middle"
-                        aria-hidden="true"
-                      ></i>
+                      <span className="link-strong">
+                        Return to The Kingdom{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
                     </Link>
                   </div>
                 </div>

@@ -33,7 +33,7 @@ export default function YourJourneyPage() {
                   <div className="page-header-label mb-20">Stage 2: Personal</div>
                   <h1 className="page-header-title">Your Journey</h1>
                   <p className="page-header-subtitle">
-                    The Making of a Disciple
+                    I Am a Disciple
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function YourJourneyPage() {
                     </p>
                     <div className="scripture-reference">— Luke 9:23</div>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       Being a disciple isn't about having all the answers — it's about
                       walking with Jesus and learning His ways. The journey of discipleship
@@ -143,13 +143,15 @@ export default function YourJourneyPage() {
                   <div className="local-scroll">
                     <Link
                       href="/life-together"
-                      className="link-circle-1 align-middle"
+                      className="link-hover-anim link-circle-1 align-middle"
                     >
-                      Explore Life Together{" "}
-                      <i
-                        className="mi-arrow-right size-18 align-middle"
-                        aria-hidden="true"
-                      ></i>
+                      <span className="link-strong">
+                        Explore Life Together{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
                     </Link>
                   </div>
                 </div>

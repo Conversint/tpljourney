@@ -60,7 +60,7 @@ export default function TheKingdomPage() {
               </div>
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       {vision.lead}
                     </p>

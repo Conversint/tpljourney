@@ -33,7 +33,7 @@ export default function LeadersPage() {
                   <div className="page-header-label mb-20">Stage 4: Multiplication</div>
                   <h1 className="page-header-title">Leaders</h1>
                   <p className="page-header-subtitle">
-                    Becoming Disciple-Makers
+                    We are Disciple Makers
                   </p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function LeadersPage() {
                       "We are Disciple-Makers"
                     </p>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       The journey doesn't end with personal growth or even community.
                       Jesus called us to "make disciples of all nations" — to multiply
@@ -188,13 +188,15 @@ export default function LeadersPage() {
                   <div className="local-scroll">
                     <Link
                       href="/intensives"
-                      className="link-circle-1 align-middle"
+                      className="link-hover-anim link-circle-1 align-middle"
                     >
-                      Explore Intensives{" "}
-                      <i
-                        className="mi-arrow-right size-18 align-middle"
-                        aria-hidden="true"
-                      ></i>
+                      <span className="link-strong">
+                        Explore Intensives{" "}
+                        <i
+                          className="mi-arrow-right size-18 align-middle"
+                          aria-hidden="true"
+                        ></i>
+                      </span>
                     </Link>
                   </div>
                 </div>

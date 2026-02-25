@@ -33,7 +33,7 @@ export default function LifeTogetherPage() {
                   <div className="page-header-label mb-20">Stage 3: Community</div>
                   <h1 className="page-header-title">Life Together</h1>
                   <p className="page-header-subtitle">
-                    Kingdom Communities Grow Together, Pray Together, Share Together, and Care for One Another
+                    We are Disciples
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function LifeTogetherPage() {
                     </p>
                     <p className="scripture-reference">— {lifeTogether.vision.scripture}</p>
                   </div>
-                  <div className="wow linesAnimIn" data-splitting="lines">
+                  <div>
                     <p className="lead text-center mb-40">
                       "We are Disciples"
                     </p>
@@ -105,51 +105,6 @@ export default function LifeTogetherPage() {
             description="The Disciple-Making Team (DMT) facilitation guide walks groups through a 20-week journey of discovery, prayer, and practice."
           />
 
-          {/* What is DMT */}
-          <section className="page-section">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8 offset-lg-2">
-                  <h2 className="section-title text-center mb-50">
-                    What is Disciple-Making Team?
-                  </h2>
-                  <div className="row">
-                    <div className="col-md-6 mb-30">
-                      <h4 className="mb-15">Discovery</h4>
-                      <p className="text-gray">
-                        Rather than lecture-based teaching, DMT uses discovery-based learning.
-                        The group explores Scripture together, allowing the Holy Spirit to
-                        reveal truth directly to each person.
-                      </p>
-                    </div>
-                    <div className="col-md-6 mb-30">
-                      <h4 className="mb-15">Making</h4>
-                      <p className="text-gray">
-                        This isn't passive learning — it's active transformation. Each week,
-                        members commit to "I will..." statements, putting what they've
-                        discovered into practice.
-                      </p>
-                    </div>
-                    <div className="col-md-6 mb-30">
-                      <h4 className="mb-15">Together</h4>
-                      <p className="text-gray">
-                        Growth happens in community. Members share, pray, encourage, and
-                        hold each other accountable. No one walks this journey alone.
-                      </p>
-                    </div>
-                    <div className="col-md-6 mb-30">
-                      <h4 className="mb-15">Multiplication</h4>
-                      <p className="text-gray">
-                        The goal isn't just personal growth — it's multiplication. As members
-                        grow, they're equipped to start new groups and make new disciples.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* Next Step CTA */}
           <section className="page-section bg-dark-1 light-content">
             <div className="container">
@@ -166,19 +121,8 @@ export default function LifeTogetherPage() {
                     <Link
                       href="/leaders"
                       className="link-hover-anim link-circle-1 align-middle"
-                      data-link-animate="y"
                     >
-                      <span className="link-strong link-strong-unhovered">
-                        Explore Leadership{" "}
-                        <i
-                          className="mi-arrow-right size-18 align-middle"
-                          aria-hidden="true"
-                        ></i>
-                      </span>
-                      <span
-                        className="link-strong link-strong-hovered"
-                        aria-hidden="true"
-                      >
+                      <span className="link-strong">
                         Explore Leadership{" "}
                         <i
                           className="mi-arrow-right size-18 align-middle"

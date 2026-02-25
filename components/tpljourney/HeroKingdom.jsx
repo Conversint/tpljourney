@@ -25,13 +25,15 @@ export default function HeroKingdom() {
         <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.5s">
           <Link
             href="/the-kingdom"
-            className="link-circle-1 align-middle"
+            className="link-hover-anim link-circle-1 align-middle"
           >
-            Begin Your Journey{" "}
-            <i
-              className="mi-arrow-right size-18 align-middle"
-              aria-hidden="true"
-            ></i>
+            <span className="link-strong">
+              Begin Your Journey{" "}
+              <i
+                className="mi-arrow-right size-18 align-middle"
+                aria-hidden="true"
+              ></i>
+            </span>
           </Link>
         </div>
       </div>
