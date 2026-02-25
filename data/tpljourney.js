@@ -46,7 +46,7 @@ export const journeyStages = [
     title: "The Kingdom",
     description: "Discover God's vision for His kingdom on earth as it is in heaven.",
     icon: "mi-crown",
-    href: "/",
+    href: "/#vision",
     stage: "Vision",
   },
   {

@@ -87,7 +87,9 @@ export default function HomePage() {
             className="page-section bg-dark-alpha-30 parallax-5 light-content"
             style={{
               backgroundImage:
-                "url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&q=80)",
+                "url(https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1920&q=80)",
+              backgroundSize: "cover",
+              backgroundPosition: "center center",
             }}
           >
             <div className="container">

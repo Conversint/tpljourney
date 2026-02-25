@@ -77,6 +77,10 @@
   color: var(--tpl-primary-light);
 }
 
+.light-content .hs-title-6 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 /* Journey Cards */
 .journey-card {
   display: block;

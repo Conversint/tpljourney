@@ -24,7 +24,7 @@ export default function HeroKingdom() {
         </p>
         <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.5s">
           <Link
-            href="/your-journey"
+            href="/#vision"
             className="link-hover-anim link-circle-1 align-middle"
             data-link-animate="y"
           >
