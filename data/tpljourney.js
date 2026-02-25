@@ -91,18 +91,21 @@ export const tplFramework = {
     description: "God reveals Himself through His Word and His creation. We encounter the living God who speaks, teaches, and transforms our understanding.",
     scripture: "John 8:32",
     scriptureText: "You will know the truth, and the truth will set you free.",
+    icon: "mi-book-open",
   },
   power: {
     title: "Power",
     description: "God demonstrates His kingdom through supernatural works. The Holy Spirit empowers us to live beyond our natural abilities.",
     scripture: "Acts 1:8",
     scriptureText: "You will receive power when the Holy Spirit comes upon you.",
+    icon: "mi-lightning",
   },
   love: {
     title: "Love",
     description: "God's nature is love, and His kingdom is built on love. We become vessels of His love to a world in need.",
     scripture: "1 John 4:8",
     scriptureText: "God is love.",
+    icon: "mi-heart",
   },
 };
 
@@ -141,21 +144,25 @@ export const lifeTogether = {
       step: 1,
       title: "Gather 2-3 Others",
       description: "Find a small group of people hungry to grow together in faith.",
+      icon: "mi-users",
     },
     {
       step: 2,
       title: "Set a Rhythm",
       description: "Commit to meeting weekly for discovery, prayer, and accountability.",
+      icon: "mi-refresh",
     },
     {
       step: 3,
       title: "Use the DMT Guide",
       description: "Follow the 20-week facilitation guide to structure your journey together.",
+      icon: "mi-book-open",
     },
     {
       step: 4,
       title: "Practice What You Learn",
       description: "Apply kingdom principles between meetings and share what God does.",
+      icon: "mi-lightning",
     },
   ],
 };
@@ -239,14 +246,17 @@ export const theKingdomContent = {
       {
         title: "Father",
         description: "God is a loving Father who longs to be known. Jesus taught us to approach Him as 'Abba' — an intimate, trusted parent who provides, protects, and calls us His own.",
+        icon: "mi-heart",
       },
       {
         title: "Son",
         description: "Jesus is the visible image of the invisible God. In His life, death, and resurrection, He reveals the Father's heart and makes the way for us to enter the kingdom.",
+        icon: "mi-star",
       },
       {
         title: "Holy Spirit",
         description: "The Spirit of God lives in every believer, empowering us to live as kingdom people. He guides, teaches, heals, and gifts us for ministry.",
+        icon: "mi-fire",
       },
     ],
   },
