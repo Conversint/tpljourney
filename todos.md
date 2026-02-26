@@ -1,0 +1,2 @@
+- Make the flow more consistent across the 5 stages of the journey: Scripture passage -> brief explication -> explanation of resources -> framework/model (as applicable) -> cards / links to resources (VALIDATE THIS)
+- Clean up page sections throughout

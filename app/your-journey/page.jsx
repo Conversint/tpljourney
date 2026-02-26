@@ -72,13 +72,6 @@ export default function YourJourneyPage() {
             </div>
           </section>
 
-          {/* Resources Section */}
-          <ResourceSection
-            resources={yourJourneyResources}
-            title="The Making of a Disciple Series"
-            description="Foundational resources for understanding what it means to be a disciple in the TPL framework."
-          />
-
           {/* TPL Personal Framework */}
           <section className="page-section bg-dark-1 light-content">
             <div className="container">
@@ -136,6 +129,13 @@ export default function YourJourneyPage() {
               </div>
             </div>
           </section>
+          {/* Resources Section */}
+          <ResourceSection
+            resources={yourJourneyResources}
+            title="The Making of a Disciple Series"
+            description="Foundational resources for understanding what it means to be a disciple in the TPL framework."
+          />
+
 
           {/* Next Step CTA */}
           <section className="page-section">

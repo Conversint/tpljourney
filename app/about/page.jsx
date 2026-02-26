@@ -126,26 +126,8 @@ export default function AboutPage() {
             </div>
           </section>
 
-          {/* Leadership */}
-          <section className="page-section">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8 offset-lg-2 text-center">
-                  <h2 className="section-title mb-50">Leadership</h2>
-                  <div className="mb-30">
-                    <h3 className="mb-10">{aboutContent.founder.name}</h3>
-                    <p className="text-gray mb-20">{aboutContent.founder.role}</p>
-                    <p className="text-gray">
-                      {aboutContent.founder.bio}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* What We Believe */}
-          <section className="page-section bg-dark-1 light-content">
+          <section className="page-section">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
@@ -201,7 +183,7 @@ export default function AboutPage() {
           </section>
 
           {/* CTA */}
-          <section className="page-section">
+          <section className="page-section bg-dark-1 light-content">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2 text-center">
@@ -215,7 +197,7 @@ export default function AboutPage() {
                   <div className="local-scroll">
                     <Link
                       href="/your-journey"
-                      className="btn btn-mod btn-large btn-circle"
+                      className="btn btn-mod btn-w btn-large btn-circle"
                     >
                       Start Your Journey
                     </Link>

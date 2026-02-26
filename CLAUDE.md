@@ -48,6 +48,11 @@ Every page in `app/` follows the same structure:
 - **Valid icon names** (prefix all with `mi-`): add, archive, ban, bar-chart, book, bookmark, calendar, call, camera, check, circle, clipboard, clock, close, cloud, comment, compass, computer, copy, database, delete, document, download, edit, email, enter, expand, export, eye, favorite, filter, flag, folder, grid, heart, home, image, inbox, layers, link, list, location, lock, log-in, log-out, map, megaphone, menu, message, mobile, moon, next, notification, options-horizontal, options-vertical, pause, pen, percentage, pin, play, print, rain, refresh, remove, repeat, save, search, select, send, settings, share, shuffle, snow, snowflake, sort, speakers, stop, storm, sun, sunrise, sunset, switch, table, tag, temperature, text, undo, unlock, user, user-add, user-check, users, volume-up, warning, webcam, wind, zoom-in, zoom-out *(and more — check icons.css for full list)*
 - **Invalid names** (do not use): `mi-crown`, `mi-lightning`, `mi-book-open`, `mi-fire`, `mi-globe`, `mi-star`, `mi-hand` — these have no glyph in this font and render invisibly.
 
+### Content rules
+
+- **No real people's names** — never include the names of living or modern individuals in any page content, data, code comments, or documentation. Biblical characters (Jesus, Paul, Peter, etc.) are the only acceptable personal names. Reference roles generically (e.g., "the founder", "our team") instead.
+- **Page flow** — each journey stage page should follow this order: scripture passage → brief explication → explanation of resources → framework/model (as applicable) → cards/links to resources.
+
 ### Content data
 
 All TPL page data lives in `data/tpljourney.js`:

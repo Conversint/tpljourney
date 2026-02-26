@@ -50,8 +50,10 @@ export default function LeadersPage() {
                 <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <div className="scripture-block mb-50">
                     <p className="scripture-text">
-                      "We are Disciple-Makers"
+                      "And the things you have heard me say in the presence of many witnesses
+                      entrust to reliable people who will also be qualified to teach others."
                     </p>
+                    <p className="scripture-reference">— 2 Timothy 2:2</p>
                   </div>
                   <div>
                     <p className="lead text-center mb-40">
@@ -59,11 +61,16 @@ export default function LeadersPage() {
                       Jesus called us to "make disciples of all nations" — to multiply
                       what we've received by pouring into others.
                     </p>
-                    <p className="text-center text-gray">
+                    <p className="text-center text-gray mb-30">
                       A disciple-maker is someone who has walked the journey, experienced
                       transformation, and is now equipped to guide others on the same path.
                       It's not about being perfect — it's about being faithful to pass on
                       what you've received.
+                    </p>
+                    <p className="text-center text-gray">
+                      The Two Flame Leader Development modules walk you through the principles
+                      and practices of kingdom multiplication — equipping you to light other
+                      flames from yours and grow the movement of disciples.
                     </p>
                   </div>
                 </div>

@@ -159,6 +159,22 @@ export default function IntensivesPage() {
             </div>
           </section>
 
+          {/* Resource Explanation */}
+          <section className="page-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8 offset-lg-2 text-center">
+                  <p className="text-gray">
+                    To help you prepare and engage fully, TPL Journey provides Intensive
+                    Workbooks — structured preparation and reflection materials that walk
+                    you through each pillar of the experience before, during, and after
+                    your intensive.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Resources */}
           <ResourceSection
             resources={intensives.resources}

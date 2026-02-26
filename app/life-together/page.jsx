@@ -55,14 +55,16 @@ export default function LifeTogetherPage() {
                     <p className="scripture-reference">— {lifeTogether.vision.scripture}</p>
                   </div>
                   <div>
-                    <p className="lead text-center mb-40">
-                      "We are Disciples"
-                    </p>
-                    <p className="text-center text-gray">
+                    <p className="text-center text-gray mb-30">
                       The early church didn't just attend meetings — they did life together.
                       They shared meals, resources, struggles, and victories. This is the
                       model for kingdom community: not programs, but presence. Not attendance,
                       but authentic relationship.
+                    </p>
+                    <p className="text-center text-gray">
+                      The One Flame DMT Facilitator's Guide gives your community a structured
+                      20-week pathway for this kind of life together — discovery, prayer, and
+                      kingdom practice in the rhythm of authentic relationship.
                     </p>
                   </div>
                 </div>

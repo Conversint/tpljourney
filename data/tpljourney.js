@@ -136,7 +136,7 @@ export const lifeTogether = {
       type: "folder",
       languages: ["English", "Bahasa Indonesia"],
       driveLink: "https://drive.google.com/drive/folders/1CkkCqlfS8VEZxB_ew6ydbXN_dZcIrolo?usp=sharing",
-      icon: "mi-book-open",
+      icon: "mi-document",
     },
   ],
   startingSteps: [
@@ -175,7 +175,7 @@ export const leadersResources = [
     description: "Training materials for developing disciple-makers who multiply kingdom communities.",
     type: "folder",
     language: "English",
-    // TODO: Replace with Google Drive resource link from Mark
+    // TODO: Replace with actual Google Drive resource link
     driveLink: null,
     icon: "mi-megaphone",
     comingSoon: true,
@@ -223,7 +223,7 @@ export const intensives = {
       description: "Preparation and reflection materials for intensive retreat experiences.",
       type: "folder",
       language: "English",
-      // TODO: Replace with Google Drive resource link from Mark
+      // TODO: Replace with actual Google Drive resource link
       driveLink: null,
       icon: "mi-document",
       comingSoon: true,
@@ -289,9 +289,4 @@ export const theKingdomContent = {
 export const aboutContent = {
   mission: "TPL Journey equips individuals and communities to experience God's kingdom through a discipleship framework grounded in Truth, Power, and Love.",
   vision: "To see every person encounter the living God and become a disciple-maker who multiplies kingdom life throughout the nations.",
-  founder: {
-    name: "Mark Straznicky",
-    role: "Founder",
-    bio: "Based overseas with international teams across multiple regions, Mark leads TPL Journey's mission to equip disciples and disciple-makers around the world.",
-  },
 };
