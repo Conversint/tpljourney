@@ -47,7 +47,7 @@ export default function LifeTogetherPage() {
           <section className="page-section">
             <div className="container">
               <div className="row">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <div className="scripture-block mb-50">
                     <p className="scripture-text">
                       "{lifeTogether.vision.text}"
@@ -56,13 +56,15 @@ export default function LifeTogetherPage() {
                   </div>
                   <div>
                     <p className="lead text-center mb-40">
-                      "We are Disciples"
-                    </p>
-                    <p className="text-center text-gray">
                       The early church didn't just attend meetings — they did life together.
                       They shared meals, resources, struggles, and victories. This is the
                       model for kingdom community: not programs, but presence. Not attendance,
                       but authentic relationship.
+                    </p>
+                    <p className="text-center text-gray">
+                      The One Flame DMT Facilitator's Guide gives your community a structured
+                      20-week pathway for this kind of life together — discovery, prayer, and
+                      kingdom practice in the rhythm of authentic relationship.
                     </p>
                   </div>
                 </div>
@@ -76,7 +78,7 @@ export default function LifeTogetherPage() {
               <div className="row mb-70 mb-sm-50">
                 <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
                   <h2 className="section-title mb-30 mb-sm-20">
-                    How to Start a Group<span className="text-gray">.</span>
+                    How to Start a Group
                   </h2>
                   <div className="text-gray">
                     Starting a DMT is simpler than you think. Here's how to begin:
@@ -85,8 +87,8 @@ export default function LifeTogetherPage() {
               </div>
 
               <div className="row">
-                {lifeTogether.startingSteps.map((item) => (
-                  <div key={item.step} className="col-md-6 col-lg-3 mb-40">
+                {lifeTogether.startingSteps.map((item, index) => (
+                  <div key={item.step} className="col-md-6 col-lg-3 mb-40 wow fadeInUpShort" data-wow-delay={`${index * 0.12}s`}>
                     <div className="step-card">
                       <div className="step-number">{item.step}</div>
                       {item.icon && (

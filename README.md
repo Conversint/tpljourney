@@ -57,8 +57,8 @@ The site integrates with Google Drive for resource distribution:
 |------|---------------------|
 | Your Journey | Available |
 | Life Together (DMT) | Available |
-| Leaders | Pending from Mark |
-| Intensives | Pending from Mark |
+| Leaders | Pending |
+| Intensives | Pending |
 
 ## Multi-Language Support (Future)
 
@@ -74,4 +74,3 @@ The architecture supports future i18n implementation for:
 ## Contact
 
 - Website: [tpljourney.com](https://tpljourney.com)
-- Ministry Leader: Mark Straznicky

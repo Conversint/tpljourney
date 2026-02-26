@@ -16,8 +16,8 @@ export default function ResourceSection({ resources, title, description }) {
         )}
 
         <div className="row justify-content-center">
-          {resources.map((resource) => (
-            <div key={resource.id} className="col-md-6 col-lg-4 mb-40">
+          {resources.map((resource, index) => (
+            <div key={resource.id} className="col-md-6 col-lg-4 mb-40 wow fadeInUpShort" data-wow-delay={`${index * 0.15}s`}>
               <div className="resource-card text-center">
                 <div className="resource-icon mb-20">
                   <i className={`${resource.icon} size-48`} aria-hidden="true" />

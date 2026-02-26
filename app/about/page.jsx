@@ -41,7 +41,7 @@ export default function AboutPage() {
           <section className="page-section">
             <div className="container">
               <div className="row">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <h2 className="section-title text-center mb-50">Our Mission</h2>
                   <p className="lead text-center mb-40">
                     {aboutContent.mission}
@@ -71,7 +71,7 @@ export default function AboutPage() {
               </div>
 
               <div className="row">
-                <div className="col-md-4 mb-40 mb-md-0">
+                <div className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort">
                   <div className="tpl-pillar tpl-pillar-truth">
                     {tplFramework.truth.icon && (
                       <div className="tpl-pillar-icon mb-20">
@@ -88,7 +88,7 @@ export default function AboutPage() {
                     </blockquote>
                   </div>
                 </div>
-                <div className="col-md-4 mb-40 mb-md-0">
+                <div className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay="0.15s">
                   <div className="tpl-pillar tpl-pillar-power">
                     {tplFramework.power.icon && (
                       <div className="tpl-pillar-icon mb-20">
@@ -105,7 +105,7 @@ export default function AboutPage() {
                     </blockquote>
                   </div>
                 </div>
-                <div className="col-md-4 mb-40 mb-md-0">
+                <div className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay="0.3s">
                   <div className="tpl-pillar tpl-pillar-love">
                     {tplFramework.love.icon && (
                       <div className="tpl-pillar-icon mb-20">
@@ -126,32 +126,17 @@ export default function AboutPage() {
             </div>
           </section>
 
-          {/* Leadership */}
-          <section className="page-section">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8 offset-lg-2 text-center">
-                  <h2 className="section-title mb-50">Leadership</h2>
-                  <div className="mb-30">
-                    <h3 className="mb-10">{aboutContent.founder.name}</h3>
-                    <p className="text-gray mb-20">{aboutContent.founder.role}</p>
-                    <p className="text-gray">
-                      {aboutContent.founder.bio}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* What We Believe */}
-          <section className="page-section bg-dark-1 light-content">
+          <section className="page-section">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                   <h2 className="section-title text-center mb-50">What We Believe</h2>
                   <div className="row">
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-flag size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">God's Kingdom is Real</h4>
                       <p className="text-gray">
                         Jesus proclaimed the kingdom of God as present reality, not just
@@ -159,7 +144,10 @@ export default function AboutPage() {
                         power, and transformation.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.1s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-users size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Every Believer is Called</h4>
                       <p className="text-gray">
                         Discipleship isn't just for church leaders. Every follower of Jesus
@@ -167,7 +155,10 @@ export default function AboutPage() {
                         life wherever they go.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.2s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-storm size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">The Holy Spirit Empowers</h4>
                       <p className="text-gray">
                         We can't live the kingdom life in our own strength. The Holy Spirit
@@ -175,7 +166,10 @@ export default function AboutPage() {
                         supernatural power.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.3s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-heart size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Community is Essential</h4>
                       <p className="text-gray">
                         We were created for relationship. Discipleship happens best in
@@ -189,7 +183,7 @@ export default function AboutPage() {
           </section>
 
           {/* CTA */}
-          <section className="page-section">
+          <section className="page-section bg-dark-1 light-content">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2 text-center">
@@ -203,7 +197,7 @@ export default function AboutPage() {
                   <div className="local-scroll">
                     <Link
                       href="/your-journey"
-                      className="btn btn-mod btn-large btn-circle"
+                      className="btn btn-mod btn-w btn-large btn-circle"
                     >
                       Start Your Journey
                     </Link>

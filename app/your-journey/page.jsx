@@ -47,7 +47,7 @@ export default function YourJourneyPage() {
           <section className="page-section pb-0">
             <div className="container">
               <div className="row mb-0">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <div className="scripture-block mb-30">
                     <p className="scripture-text">
                       "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me."
@@ -72,13 +72,6 @@ export default function YourJourneyPage() {
             </div>
           </section>
 
-          {/* Resources Section */}
-          <ResourceSection
-            resources={yourJourneyResources}
-            title="The Making of a Disciple Series"
-            description="Foundational resources for understanding what it means to be a disciple in the TPL framework."
-          />
-
           {/* TPL Personal Framework */}
           <section className="page-section bg-dark-1 light-content">
             <div className="container">
@@ -94,10 +87,10 @@ export default function YourJourneyPage() {
               </div>
 
               <div className="row">
-                <div className="col-md-4 mb-40 mb-md-0">
+                <div className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort">
                   <div className="tpl-pillar tpl-pillar-truth">
                     <div className="tpl-pillar-icon mb-20">
-                      <i className="mi-book-open size-48" aria-hidden="true" />
+                      <i className="mi-book size-48" aria-hidden="true" />
                     </div>
                     <h3 className="tpl-pillar-title mb-20">Truth</h3>
                     <p className="tpl-pillar-description">
@@ -107,10 +100,10 @@ export default function YourJourneyPage() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4 mb-40 mb-md-0">
+                <div className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay="0.15s">
                   <div className="tpl-pillar tpl-pillar-power">
                     <div className="tpl-pillar-icon mb-20">
-                      <i className="mi-lightning size-48" aria-hidden="true" />
+                      <i className="mi-storm size-48" aria-hidden="true" />
                     </div>
                     <h3 className="tpl-pillar-title mb-20">Power</h3>
                     <p className="tpl-pillar-description">
@@ -120,7 +113,7 @@ export default function YourJourneyPage() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4 mb-40 mb-md-0">
+                <div className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay="0.3s">
                   <div className="tpl-pillar tpl-pillar-love">
                     <div className="tpl-pillar-icon mb-20">
                       <i className="mi-heart size-48" aria-hidden="true" />
@@ -136,9 +129,16 @@ export default function YourJourneyPage() {
               </div>
             </div>
           </section>
+          {/* Resources Section */}
+          <ResourceSection
+            resources={yourJourneyResources}
+            title="The Making of a Disciple Series"
+            description="Foundational resources for understanding what it means to be a disciple in the TPL framework."
+          />
+
 
           {/* Next Step CTA */}
-          <section className="page-section">
+          <section className="page-section bg-dark-1 light-content">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2 text-center">

@@ -499,36 +499,9 @@
   color: var(--tpl-primary-light);
 }
 
-/* Animation for Journey Cards on Scroll */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.journey-card {
-  animation: fadeInUp 0.6s ease forwards;
-}
-
-.journey-card:nth-child(2) {
-  animation-delay: 0.1s;
-}
-
-.journey-card:nth-child(3) {
-  animation-delay: 0.2s;
-}
-
-.journey-card:nth-child(4) {
-  animation-delay: 0.3s;
-}
-
-.journey-card:nth-child(5) {
-  animation-delay: 0.4s;
+/* Icon sizes */
+.size-32 {
+  font-size: 32px;
 }
 
 /* Icon Size Extension */

@@ -47,11 +47,13 @@ export default function LeadersPage() {
           <section className="page-section">
             <div className="container">
               <div className="row mb-70 mb-sm-50">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <div className="scripture-block mb-50">
                     <p className="scripture-text">
-                      "We are Disciple-Makers"
+                      "And the things you have heard me say in the presence of many witnesses
+                      entrust to reliable people who will also be qualified to teach others."
                     </p>
+                    <p className="scripture-reference">— 2 Timothy 2:2</p>
                   </div>
                   <div>
                     <p className="lead text-center mb-40">
@@ -60,10 +62,9 @@ export default function LeadersPage() {
                       what we've received by pouring into others.
                     </p>
                     <p className="text-center text-gray">
-                      A disciple-maker is someone who has walked the journey, experienced
-                      transformation, and is now equipped to guide others on the same path.
-                      It's not about being perfect — it's about being faithful to pass on
-                      what you've received.
+                      The Two Flame Leader Development modules walk you through the principles
+                      and practices of kingdom multiplication — equipping you to light other
+                      flames from yours and grow the movement of disciples.
                     </p>
                   </div>
                 </div>
@@ -86,10 +87,10 @@ export default function LeadersPage() {
               </div>
 
               <div className="row">
-                <div className="col-md-6 mb-40 mb-md-0">
+                <div className="col-md-6 mb-40 mb-md-0 wow fadeInUpShort">
                   <div className="tpl-pillar tpl-pillar-power">
                     <div className="tpl-pillar-icon mb-20">
-                      <i className="mi-fire size-48" aria-hidden="true" />
+                      <i className="mi-sun size-48" aria-hidden="true" />
                     </div>
                     <h3 className="tpl-pillar-title mb-20">One Flame</h3>
                     <p className="tpl-pillar-description mb-30">
@@ -105,7 +106,7 @@ export default function LeadersPage() {
                     </ul>
                   </div>
                 </div>
-                <div className="col-md-6 mb-40 mb-md-0">
+                <div className="col-md-6 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay="0.15s">
                   <div className="tpl-pillar tpl-pillar-power">
                     <div className="tpl-pillar-icon mb-20">
                       <i className="mi-users size-48" aria-hidden="true" />
@@ -144,7 +145,10 @@ export default function LeadersPage() {
                     Qualities of a Disciple-Maker
                   </h2>
                   <div className="row">
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-heart size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Faithful, Not Perfect</h4>
                       <p className="text-gray">
                         You don't need to have it all figured out. You just need to be
@@ -152,21 +156,30 @@ export default function LeadersPage() {
                         others along.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.1s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-user size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Available</h4>
                       <p className="text-gray">
                         Disciple-making requires time and presence. It happens in
                         life's everyday moments, not just scheduled meetings.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.2s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-book size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Hungry to Learn</h4>
                       <p className="text-gray">
                         The best leaders are still students. A posture of learning
                         keeps you growing and models humility to those you lead.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.3s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-refresh size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Multiplication Mindset</h4>
                       <p className="text-gray">
                         Think beyond yourself. The goal is to raise up leaders who

@@ -47,7 +47,7 @@ export default function IntensivesPage() {
           <section className="page-section">
             <div className="container">
               <div className="row mb-70 mb-sm-50">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <div className="scripture-block mb-50">
                     <p className="scripture-text">
                       "The harvest is plentiful, but the workers are few. Ask the Lord
@@ -66,6 +66,9 @@ export default function IntensivesPage() {
                       Think of it as a local mission trip: a concentrated time of prayer,
                       teaching, inner healing, and real-world ministry practice. These
                       experiences often become turning points in people's walks with God.
+                      We provide structured preparation and reflection materials that walk
+                      you through each pillar of the experience before, during, and after
+                      your intensive.
                     </p>
                   </div>
                 </div>
@@ -89,8 +92,8 @@ export default function IntensivesPage() {
               </div>
 
               <div className="row justify-content-center">
-                {intensives.pillars.map((pillar) => (
-                  <div key={pillar.id} className="col-6 col-md-4 col-lg mb-30">
+                {intensives.pillars.map((pillar, index) => (
+                  <div key={pillar.id} className="col-6 col-md-4 col-lg mb-30 wow fadeInUpShort" data-wow-delay={`${index * 0.1}s`}>
                     <div className="pillar-card">
                       <div className="pillar-icon">
                         <i className={`${pillar.icon} size-48`} aria-hidden="true" />
@@ -105,7 +108,7 @@ export default function IntensivesPage() {
           </section>
 
           {/* What to Expect */}
-          <section className="page-section">
+          <section className="page-section pb-0">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
@@ -113,28 +116,40 @@ export default function IntensivesPage() {
                     What to Expect
                   </h2>
                   <div className="row">
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-users size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Intentional Community</h4>
                       <p className="text-gray">
                         You'll journey alongside a small group of people all seeking
                         to grow. Deep relationships form quickly in this concentrated time.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.1s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-layers size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Stretching Experiences</h4>
                       <p className="text-gray">
                         Expect to do things outside your comfort zone. Faith grows
                         when we step into the unknown trusting God to show up.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.2s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-message size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Encounter God</h4>
                       <p className="text-gray">
                         Through worship, prayer, and ministry, many people have profound
                         encounters with the Holy Spirit during intensives.
                       </p>
                     </div>
-                    <div className="col-md-6 mb-30">
+                    <div className="col-md-6 mb-30 wow fadeInUpShort" data-wow-delay="0.3s">
+                      <div className="tpl-pillar-icon mb-15">
+                        <i className="mi-book size-32" aria-hidden="true" />
+                      </div>
                       <h4 className="mb-15">Practical Skills</h4>
                       <p className="text-gray">
                         You'll learn and practice skills like sharing your testimony,
