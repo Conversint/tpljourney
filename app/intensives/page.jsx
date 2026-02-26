@@ -66,6 +66,9 @@ export default function IntensivesPage() {
                       Think of it as a local mission trip: a concentrated time of prayer,
                       teaching, inner healing, and real-world ministry practice. These
                       experiences often become turning points in people's walks with God.
+                      We provide structured preparation and reflection materials that walk
+                      you through each pillar of the experience before, during, and after
+                      your intensive.
                     </p>
                   </div>
                 </div>
@@ -105,7 +108,7 @@ export default function IntensivesPage() {
           </section>
 
           {/* What to Expect */}
-          <section className="page-section">
+          <section className="page-section pb-0">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
@@ -154,22 +157,6 @@ export default function IntensivesPage() {
                       </p>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Resource Explanation */}
-          <section className="page-section">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8 offset-lg-2 text-center">
-                  <p className="text-gray">
-                    To help you prepare and engage fully, TPL Journey provides Intensive
-                    Workbooks — structured preparation and reflection materials that walk
-                    you through each pillar of the experience before, during, and after
-                    your intensive.
-                  </p>
                 </div>
               </div>
             </div>
