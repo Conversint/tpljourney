@@ -138,7 +138,7 @@ export default function YourJourneyPage() {
 
 
           {/* Next Step CTA */}
-          <section className="page-section">
+          <section className="page-section bg-dark-1 light-content">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2 text-center">

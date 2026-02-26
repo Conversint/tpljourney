@@ -55,7 +55,7 @@ export default function LifeTogetherPage() {
                     <p className="scripture-reference">— {lifeTogether.vision.scripture}</p>
                   </div>
                   <div>
-                    <p className="text-center text-gray mb-30">
+                    <p className="lead text-center mb-40">
                       The early church didn't just attend meetings — they did life together.
                       They shared meals, resources, struggles, and victories. This is the
                       model for kingdom community: not programs, but presence. Not attendance,
@@ -78,7 +78,7 @@ export default function LifeTogetherPage() {
               <div className="row mb-70 mb-sm-50">
                 <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
                   <h2 className="section-title mb-30 mb-sm-20">
-                    How to Start a Group<span className="text-gray">.</span>
+                    How to Start a Group
                   </h2>
                   <div className="text-gray">
                     Starting a DMT is simpler than you think. Here's how to begin:
