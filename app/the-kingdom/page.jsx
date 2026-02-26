@@ -48,7 +48,7 @@ export default function TheKingdomPage() {
           <section className="page-section">
             <div className="container">
               <div className="row mb-70 mb-sm-50">
-                <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+                <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center wow fadeInUpShort">
                   <h2 className="section-title mb-30 mb-sm-20">
                     Kingdom Vision<span className="text-gray">.</span>
                   </h2>
@@ -59,7 +59,7 @@ export default function TheKingdomPage() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort" data-wow-delay="0.1s">
                   <div>
                     <p className="lead text-center mb-40">
                       {vision.lead}
@@ -77,7 +77,7 @@ export default function TheKingdomPage() {
           <section className="page-section bg-dark-1 light-content">
             <div className="container">
               <div className="row mb-70 mb-sm-50">
-                <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+                <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center wow fadeInUpShort">
                   <h2 className="section-title mb-30 mb-sm-20">
                     {whoGodIs.title}<span className="text-gray">.</span>
                   </h2>
@@ -87,8 +87,8 @@ export default function TheKingdomPage() {
                 </div>
               </div>
               <div className="row">
-                {whoGodIs.pillars.map((pillar) => (
-                  <div key={pillar.title} className="col-md-4 mb-40 mb-md-0">
+                {whoGodIs.pillars.map((pillar, index) => (
+                  <div key={pillar.title} className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay={`${index * 0.15}s`}>
                     <div className="tpl-pillar">
                       {pillar.icon && (
                         <div className="tpl-pillar-icon mb-20">
@@ -108,7 +108,7 @@ export default function TheKingdomPage() {
           <section className="page-section">
             <div className="container">
               <div className="row mb-70 mb-sm-50">
-                <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+                <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center wow fadeInUpShort">
                   <h2 className="section-title mb-30 mb-sm-20">
                     {howKingdomComes.title}<span className="text-gray">.</span>
                   </h2>
@@ -122,8 +122,8 @@ export default function TheKingdomPage() {
                 </div>
               </div>
               <div className="row">
-                {howKingdomComes.ways.map((way) => (
-                  <div key={way.title} className="col-md-4 mb-40 mb-md-0">
+                {howKingdomComes.ways.map((way, index) => (
+                  <div key={way.title} className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay={`${index * 0.15}s`}>
                     <div className="tpl-pillar text-center">
                       <div className="mb-20">
                         <i className={`${way.icon} size-48`} aria-hidden="true" />
@@ -152,13 +152,17 @@ export default function TheKingdomPage() {
                   <div className="local-scroll">
                     <Link
                       href="/your-journey"
-                      className="link-circle-1 align-middle"
+                      className="link-hover-anim link-circle-1 align-middle"
+                      data-link-animate="y"
                     >
-                      Explore Your Journey{" "}
-                      <i
-                        className="mi-arrow-right size-18 align-middle"
-                        aria-hidden="true"
-                      ></i>
+                      <span className="link-strong link-strong-unhovered">
+                        Explore Your Journey{" "}
+                        <i className="mi-arrow-right size-18 align-middle" aria-hidden="true"></i>
+                      </span>
+                      <span className="link-strong link-strong-hovered" aria-hidden="true">
+                        Explore Your Journey{" "}
+                        <i className="mi-arrow-right size-18 align-middle" aria-hidden="true"></i>
+                      </span>
                     </Link>
                   </div>
                 </div>

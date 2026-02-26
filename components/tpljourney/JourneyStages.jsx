@@ -7,7 +7,7 @@ export default function JourneyStages() {
     <section className="page-section">
       <div className="container">
         <div className="row mb-70 mb-sm-50">
-          <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+          <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center wow fadeInUpShort">
             <h2 className="section-title mb-30 mb-sm-20">
               The Journey<span className="text-gray">.</span>
             </h2>
@@ -20,7 +20,7 @@ export default function JourneyStages() {
 
         <div className="row">
           {journeyStages.map((stage, index) => (
-            <div key={stage.id} className="col-md-6 col-lg-4 mb-40 d-flex">
+            <div key={stage.id} className="col-md-6 col-lg-4 mb-40 d-flex wow fadeInUpShort" data-wow-delay={`${index * 0.1}s`}>
               <Link href={stage.href} className="journey-card w-100">
                 <div className="journey-card-inner">
                   <div className="journey-number">{index + 1}</div>

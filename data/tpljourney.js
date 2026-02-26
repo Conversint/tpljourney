@@ -46,7 +46,7 @@ export const journeyStages = [
     id: 1,
     title: "The Kingdom",
     description: "Discover God's vision for His kingdom on earth as it is in heaven.",
-    icon: "mi-crown",
+    icon: "mi-flag",
     href: "/the-kingdom",
     stage: "Vision",
   },
@@ -70,7 +70,7 @@ export const journeyStages = [
     id: 4,
     title: "Leaders",
     description: "Become disciple-makers who multiply kingdom life in others.",
-    icon: "mi-fire",
+    icon: "mi-megaphone",
     href: "/leaders",
     stage: "Multiplication",
   },
@@ -78,7 +78,7 @@ export const journeyStages = [
     id: 5,
     title: "Intensives",
     description: "Go into the harvest — faith-building experiences with God in the field.",
-    icon: "mi-globe",
+    icon: "mi-compass",
     href: "/intensives",
     stage: "Harvest",
   },
@@ -91,14 +91,14 @@ export const tplFramework = {
     description: "God reveals Himself through His Word and His creation. We encounter the living God who speaks, teaches, and transforms our understanding.",
     scripture: "John 8:32",
     scriptureText: "You will know the truth, and the truth will set you free.",
-    icon: "mi-book-open",
+    icon: "mi-book",
   },
   power: {
     title: "Power",
     description: "God demonstrates His kingdom through supernatural works. The Holy Spirit empowers us to live beyond our natural abilities.",
     scripture: "Acts 1:8",
     scriptureText: "You will receive power when the Holy Spirit comes upon you.",
-    icon: "mi-lightning",
+    icon: "mi-storm",
   },
   love: {
     title: "Love",
@@ -156,13 +156,13 @@ export const lifeTogether = {
       step: 3,
       title: "Use the DMT Guide",
       description: "Follow the 20-week facilitation guide to structure your journey together.",
-      icon: "mi-book-open",
+      icon: "mi-book",
     },
     {
       step: 4,
       title: "Practice What You Learn",
       description: "Apply kingdom principles between meetings and share what God does.",
-      icon: "mi-lightning",
+      icon: "mi-storm",
     },
   ],
 };
@@ -177,7 +177,7 @@ export const leadersResources = [
     language: "English",
     // TODO: Replace with Google Drive resource link from Mark
     driveLink: null,
-    icon: "mi-fire",
+    icon: "mi-megaphone",
     comingSoon: true,
   },
 ];
@@ -189,7 +189,7 @@ export const intensives = {
       id: 1,
       title: "Prayer",
       description: "Dedicated times of seeking God's presence and direction.",
-      icon: "mi-hand",
+      icon: "mi-message",
     },
     {
       id: 2,
@@ -201,13 +201,13 @@ export const intensives = {
       id: 3,
       title: "Kingdom Teaching",
       description: "Deep dives into kingdom principles and supernatural living.",
-      icon: "mi-book-open",
+      icon: "mi-book",
     },
     {
       id: 4,
       title: "Practice in the Harvest",
       description: "Going out to experience God working through you in real-world ministry.",
-      icon: "mi-globe",
+      icon: "mi-compass",
     },
     {
       id: 5,
@@ -251,12 +251,12 @@ export const theKingdomContent = {
       {
         title: "Son",
         description: "Jesus is the visible image of the invisible God. In His life, death, and resurrection, He reveals the Father's heart and makes the way for us to enter the kingdom.",
-        icon: "mi-star",
+        icon: "mi-sun",
       },
       {
         title: "Holy Spirit",
         description: "The Spirit of God lives in every believer, empowering us to live as kingdom people. He guides, teaches, heals, and gifts us for ministry.",
-        icon: "mi-fire",
+        icon: "mi-wind",
       },
     ],
   },
@@ -269,12 +269,12 @@ export const theKingdomContent = {
       {
         title: "Through Truth",
         description: "God's kingdom advances as His Word is proclaimed and received. Truth sets people free and renews minds to align with heaven's reality.",
-        icon: "mi-book-open",
+        icon: "mi-book",
       },
       {
         title: "Through Power",
         description: "Signs, wonders, and miracles confirm that the kingdom has come near. The Holy Spirit demonstrates God's authority over sickness, darkness, and death.",
-        icon: "mi-lightning",
+        icon: "mi-storm",
       },
       {
         title: "Through Love",

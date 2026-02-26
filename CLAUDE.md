@@ -43,7 +43,10 @@ Every page in `app/` follows the same structure:
 - Bootstrap 5 grid and utilities are the base.
 - `public/assets/css/tpl-journey.css` — all TPL-specific custom styles (`.tpl-pillar-*`, `.scripture-block`, `.footer-tagline`, etc.). Add new TPL styles here.
 - `public/assets/css/demo-elegant/demo-elegant.css` — theme stylesheet from Resonance base; do not modify.
-- Icons use `mi-*` class names (Material Icons variant bundled with the theme).
+- Icons use `mi-*` class names from a **custom 150-icon font** at `public/assets/css/icons.css` — NOT the full Material Icons set. Only use class names confirmed in that file.
+- **Do NOT place `<i>` icon elements inside heading tags** (`<h1>`–`<h6>`). The heading's `font-family` CSS overrides the icon font, making them invisible. Always put icons in their own wrapper `<div>` before the heading.
+- **Valid icon names** (prefix all with `mi-`): add, archive, ban, bar-chart, book, bookmark, calendar, call, camera, check, circle, clipboard, clock, close, cloud, comment, compass, computer, copy, database, delete, document, download, edit, email, enter, expand, export, eye, favorite, filter, flag, folder, grid, heart, home, image, inbox, layers, link, list, location, lock, log-in, log-out, map, megaphone, menu, message, mobile, moon, next, notification, options-horizontal, options-vertical, pause, pen, percentage, pin, play, print, rain, refresh, remove, repeat, save, search, select, send, settings, share, shuffle, snow, snowflake, sort, speakers, stop, storm, sun, sunrise, sunset, switch, table, tag, temperature, text, undo, unlock, user, user-add, user-check, users, volume-up, warning, webcam, wind, zoom-in, zoom-out *(and more — check icons.css for full list)*
+- **Invalid names** (do not use): `mi-crown`, `mi-lightning`, `mi-book-open`, `mi-fire`, `mi-globe`, `mi-star`, `mi-hand` — these have no glyph in this font and render invisibly.
 
 ### Content data
 

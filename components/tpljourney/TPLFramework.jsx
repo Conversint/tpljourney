@@ -12,7 +12,7 @@ export default function TPLFramework() {
     <section className="page-section bg-dark-1 light-content">
       <div className="container">
         <div className="row mb-70 mb-sm-50">
-          <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+          <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center wow fadeInUpShort">
             <h2 className="section-title mb-30 mb-sm-20">
               Truth. Power. Love<span className="text-gray">.</span>
             </h2>
@@ -24,10 +24,10 @@ export default function TPLFramework() {
         </div>
 
         <div className="row">
-          {pillars.map(({ key, color }) => {
+          {pillars.map(({ key, color }, index) => {
             const pillar = tplFramework[key];
             return (
-              <div key={key} className="col-md-4 mb-40 mb-md-0">
+              <div key={key} className="col-md-4 mb-40 mb-md-0 wow fadeInUpShort" data-wow-delay={`${index * 0.15}s`}>
                 <div className={`tpl-pillar tpl-pillar-${color}`}>
                   {pillar.icon && (
                     <div className="tpl-pillar-icon mb-20">

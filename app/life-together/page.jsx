@@ -47,7 +47,7 @@ export default function LifeTogetherPage() {
           <section className="page-section">
             <div className="container">
               <div className="row">
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-8 offset-lg-2 wow fadeInUpShort">
                   <div className="scripture-block mb-50">
                     <p className="scripture-text">
                       "{lifeTogether.vision.text}"
@@ -85,8 +85,8 @@ export default function LifeTogetherPage() {
               </div>
 
               <div className="row">
-                {lifeTogether.startingSteps.map((item) => (
-                  <div key={item.step} className="col-md-6 col-lg-3 mb-40">
+                {lifeTogether.startingSteps.map((item, index) => (
+                  <div key={item.step} className="col-md-6 col-lg-3 mb-40 wow fadeInUpShort" data-wow-delay={`${index * 0.12}s`}>
                     <div className="step-card">
                       <div className="step-number">{item.step}</div>
                       {item.icon && (
