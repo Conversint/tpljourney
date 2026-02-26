@@ -61,12 +61,6 @@ export default function LeadersPage() {
                       Jesus called us to "make disciples of all nations" — to multiply
                       what we've received by pouring into others.
                     </p>
-                    <p className="text-center text-gray mb-30">
-                      A disciple-maker is someone who has walked the journey, experienced
-                      transformation, and is now equipped to guide others on the same path.
-                      It's not about being perfect — it's about being faithful to pass on
-                      what you've received.
-                    </p>
                     <p className="text-center text-gray">
                       The Two Flame Leader Development modules walk you through the principles
                       and practices of kingdom multiplication — equipping you to light other
