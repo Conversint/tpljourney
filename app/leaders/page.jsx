@@ -137,7 +137,7 @@ export default function LeadersPage() {
           />
 
           {/* Leader Qualities */}
-          <section className="page-section">
+          <section className="page-section pt-0">
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
