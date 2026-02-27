@@ -1,4 +1,4 @@
-# TPL Journey
+# TPL Journey 
 
 **Experiencing God's Kingdom in Truth, Power, and Love**
 
