@@ -24,19 +24,8 @@ export default function HeaderTPL({ links }) {
       </div>
       {/* Main Menu */}
       <div className="inner-nav desktop-nav">
-        <ul className="clearlist scroll-nav local-scroll justify-content-end scrollspyLinks">
+        <ul className="clearlist scroll-nav local-scroll justify-content-center scrollspyLinks">
           <NavTPL links={links} />
-          <li className="ms-3 me-2" />
-          <li>
-            <Link
-              href="/contact"
-              className="opacity-1 no-hover"
-            >
-              <span className="btn btn-mod btn-small btn-border-w btn-circle">
-                Begin Your Journey
-              </span>
-            </Link>
-          </li>
         </ul>
       </div>
       {/* End Main Menu */}
