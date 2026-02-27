@@ -45,3 +45,6 @@ next-env.d.ts
 planning/
 resources/11.2.25/
 original_template/
+
+#Copy generation files
+tpljourney-copy.*
