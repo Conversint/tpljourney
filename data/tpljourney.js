@@ -176,9 +176,9 @@ export const leadersResources = [
     type: "folder",
     language: "English",
     // TODO: Replace with actual Google Drive resource link
-    driveLink: null,
+    driveLink: "https://drive.google.com/drive/folders/1xRG2xop8EfqXGeVZccDTBkbHvMySJFfe?usp=share_link",
     icon: "mi-megaphone",
-    comingSoon: true,
+    comingSoon: false,
   },
 ];
 
